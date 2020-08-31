@@ -68,10 +68,5 @@ public class MainActivity extends AppCompatActivity {
         webviewactivity.putExtra("url", "https://bpsdmd.jatengprov.go.id/infosewa/");
         startActivity(webviewactivity);
     }
-
-    public void webviewjadwallab(View view) {
-        Intent webviewactivity= new Intent(MainActivity.this, WebviewActivity.class);
-        webviewactivity.putExtra("url", "https://bpsdmd.jatengprov.go.id/corlabss/");
-        startActivity(webviewactivity);
-    }
+    
 }

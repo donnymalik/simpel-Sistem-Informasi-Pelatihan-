@@ -236,31 +236,5 @@
         </RelativeLayout>
     </FrameLayout>
 
-    <FrameLayout
-        app:layout_columnWeight="1"
-        app:layout_rowWeight="1"
-        android:background="#f87f2a"
-        android:onClick="webviewjadwallab">
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:id="@+id/jadwallab"
-                android:src="@drawable/calendar"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_marginTop="10dp"
-                android:textSize="12sp"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/jadwallab"
-                android:layout_centerHorizontal="true"
-                android:textColor="#292929"
-                android:text="Jadwal Labkom"/>
-        </RelativeLayout>
-    </FrameLayout>
 </android.support.v7.widget.GridLayout>
